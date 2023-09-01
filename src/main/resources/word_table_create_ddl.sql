@@ -1,0 +1,11 @@
+CREATE TABLE englishworddb.`word` (
+  `ID` int NOT NULL,
+  `CODE` varchar(60) DEFAULT NULL,
+  `DEFINITION` varchar(60) DEFAULT NULL,
+  `TYPE` varchar(45) DEFAULT NULL,
+  `LEVEL` varchar(10) DEFAULT NULL,
+  `LINK` varchar(200) DEFAULT NULL,
+  `CREATE_DATE` datetime DEFAULT NULL,
+  `UPDATE_DATE` datetime DEFAULT NULL,
+  PRIMARY KEY (`ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci

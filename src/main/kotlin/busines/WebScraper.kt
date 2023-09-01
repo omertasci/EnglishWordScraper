@@ -1,9 +1,12 @@
-import AppConstant.Companion.BASE_URL
-import AppConstant.Companion.wordlists
+package busines
+
+import constant.AppConstant.Companion.BASE_URL
+import constant.AppConstant.Companion.wordlists
 import io.ktor.client.*
 import io.ktor.client.engine.cio.*
 import io.ktor.client.request.*
 import io.ktor.client.statement.*
+import model.WordData
 import org.jsoup.Jsoup
 
 
@@ -46,7 +49,7 @@ class WebScraper {
     }
 
 /*    companion object {
-        fun scrapWords():List<WordData> {
+        fun scrapWords():List<model.WordData> {
             return scrapWords()
         }
     }*/

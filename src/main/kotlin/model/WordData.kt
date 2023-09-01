@@ -1,3 +1,5 @@
+package model
+
 data class WordData(
     val code: String,
     val definition: String,

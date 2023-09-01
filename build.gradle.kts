@@ -10,7 +10,14 @@ repositories {
     mavenCentral()
 }
 
+val ktorVersion: String by project
+
 dependencies {
+    implementation("io.ktor:ktor-client-core:$ktorVersion")
+    implementation("io.ktor:ktor-client-cio:$ktorVersion")
+    implementation("org.jsoup:jsoup:1.16.1")
+    implementation("mysql:mysql-connector-java:8.0.28")
+
     testImplementation(kotlin("test"))
 }
 

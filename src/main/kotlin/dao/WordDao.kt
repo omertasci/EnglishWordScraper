@@ -1,3 +1,7 @@
+package dao
+
+import service.ConnectionFactory
+import model.WordData
 import java.sql.Statement
 
 class WordDao {

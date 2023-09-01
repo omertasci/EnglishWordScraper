@@ -1,3 +1,6 @@
+import busines.WebScraper
+import dao.WordDao
+
 suspend fun main() {
 
     val webScraper = WebScraper()

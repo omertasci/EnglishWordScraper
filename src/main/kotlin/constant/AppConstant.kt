@@ -1,3 +1,5 @@
+package constant
+
 class AppConstant {
     companion object {
         val BASE_URL: String = "https://www.oxfordlearnersdictionaries.com"
